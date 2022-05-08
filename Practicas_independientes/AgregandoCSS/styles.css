@@ -1,4 +1,46 @@
-.rojo{
+body{
+    /*margin: 50px*/
+}
 
-    color: green;
+/*Atributo class*/
+.logo{
+    width: 2px;
+    height: 30px;
+}
+
+/*.rojo{
+
+    color: red;
+}*/
+
+/*atributo id*/
+#name2{
+    color: yellow;
+}
+
+p{
+    color: blue;
+
+}
+
+.navegador-principal{
+    background-color: pink;
+    /*Aumenta el espacio del background*/
+    padding: 20px;
+    
+}
+
+/*separación de letras*/
+.opciones{
+
+    margin-right: 8px;
+
+    /*Quitar el subrayado*/
+    text-decoration: none;
+    
+    /*color*/
+    color: beige;
+
+    /*Se expande por completo en la página*/
+    width: 100%;
 }

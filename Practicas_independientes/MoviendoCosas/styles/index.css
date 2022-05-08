@@ -1,0 +1,36 @@
+.contenedor{
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/*Al agregar el código anterior tenemos ciertos márgenes en blanco
+por lo que agregamos lo siguiente para quitarlos*/ 
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Agregamos al hijo*/
+.hijo{
+    width: 150px;
+    height: 150px;
+    /*Agregamos  un borde compuesto de 3 parámetros
+    tamaño del border   diseño color */
+    border: 10px solid red;
+    background-color: black;
+
+    /*Movemos al hijo agregando la propiedad position absolute para el hijo
+    y position relative para el padre*/
+    position: absolute;
+    /*Ejemplo con float
+    float: right;*/
+    left: 50%;
+    bottom: 50%;
+    /*Con el código anterior solo lo centra al pico por lo que colocamos lo siguiente*/
+    transform: translate(-50% -50%);
+
+
+}
